@@ -10,6 +10,6 @@
     <engine name="cordova" version=">=6.0.0"/>
   </engines>
 
-  <hook src="scripts/create_strings.js" type="after_prepare" />
+  <hook src="scripts/create_strings.js" type="before_build" />
 
 </plugin>
